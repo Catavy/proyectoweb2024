@@ -1,0 +1,33 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(rgb(255, 118, 141), pink);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: "comic sans ms";
+    letter-spacing: 5px;
+    text-shadow: 0 0 0.3em gold;
+}
+
+.foto {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.foto img {
+    width: 200px;
+    transform: rotate(60deg);
+    /* mix-blend-mode: multiply; */
+}
+
+#mensaje {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
